@@ -27,4 +27,4 @@
 
 
 # Time spent
-    day 1: 4h
+    day 1: 6h
