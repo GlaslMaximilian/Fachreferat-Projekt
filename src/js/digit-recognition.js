@@ -33,5 +33,8 @@ canvasBox.appendChild(canvas);
 if(typeof G_vmlCanvasManager != 'undefined') {
   canvas = G_vmlCanvasManager.initElement(canvas);
 }
-
 ctx = canvas.getContext("2d");
+
+//---------------
+//Drawing function
+//---------------

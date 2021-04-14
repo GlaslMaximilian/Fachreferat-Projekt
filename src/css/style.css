@@ -10,6 +10,24 @@ html, body{
     justify-content: center;
 }
 
+.statistic{
+    height: 400px;
+    width: 400px;
+    margin-bottom: 30px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.main-content{
+    height: 600px;
+    width: 60vw;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
 #canvas {
     border-radius: 5px;
 }
