@@ -1,33 +1,69 @@
-html, body{
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-    width: 100vw;
-    background-color: #212121;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+html {
+  background-color: #2e343b;
+  overflow: hidden;
 }
 
-.statistic{
-    height: 400px;
-    width: 400px;
-    margin-bottom: 30px;
-    background-color: aliceblue;
-    border-radius: 5px;
+html h1 {
+  font-family: monospace;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.main-content{
-    height: 600px;
-    width: 60vw;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+html .canvas-box-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-
-#canvas {
-    border-radius: 5px;
+html .canvas-box-wrapper .btn {
+  width: 85px;
+  height: 40px;
+  color: #ffffff;
+  border: solid;
+  border-color: #ffffff;
+  border-width: .5px;
+  border-radius: 2px;
+  font-weight: bold;
+  background: none;
+  margin-top: 10px;
 }
+
+html .canvas-box-wrapper .btn:hover {
+  background-color: #ffffff;
+  color: #00ff9d;
+  border-color: #00ff9d;
+}
+
+html .col-6 {
+  position: relative;
+  left: 35%;
+}
+
+html .col-6 .col-12 {
+  width: 380px;
+  height: 380px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+html .col-6 .prediction-text {
+  height: 80px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

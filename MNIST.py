@@ -24,7 +24,7 @@ model = keras.Sequential([
 ])
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
-model.fit(train_img,train_label, validation_data=(test_img,test_label), epochs=10)
+model.fit(train_img,train_label, validation_data=(test_img,test_label), epochs=12)
 test_loss,test_acc = model.evaluate(test_img, test_label)
 print('Test accuracy:', test_acc)
 

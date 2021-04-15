@@ -4,7 +4,7 @@
         * Canvas
         * Reset Button
         * Discription
-        ** Toggle Button Dark-/Lightmode
+    
 
     Back-End:
         * Canvas Script
