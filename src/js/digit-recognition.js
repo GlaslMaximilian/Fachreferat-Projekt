@@ -171,10 +171,7 @@ var firstTime = 0;
 function loadChart(label, data, modelSelected) {
 	var ctx = document.getElementById('chart_box').getContext('2d');
 	chart = new Chart(ctx, {
-	    // The type of chart we want to create
 	    type: 'bar',
-
-	    // The data for our dataset
 	    data: {
 	        labels: label,
 	        datasets: [{
@@ -184,8 +181,6 @@ function loadChart(label, data, modelSelected) {
 	            data: data,
 	        }]
 	    },
-
-	    // Configuration options go here
 	    options: {}
 	});
 }

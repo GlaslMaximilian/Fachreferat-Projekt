@@ -1,6 +1,7 @@
 html {
   background-color: #2e343b;
   overflow: hidden;
+  cursor: url("./icons/pen.png");
 }
 
 html h1 {
@@ -25,6 +26,10 @@ html .canvas-box-wrapper {
       justify-content: space-around;
 }
 
+html .canvas-box-wrapper #canvas:hover {
+  cursor: url("./icons/pen.png");
+}
+
 html .canvas-box-wrapper .btn {
   width: 85px;
   height: 40px;
@@ -39,6 +44,7 @@ html .canvas-box-wrapper .btn {
 }
 
 html .canvas-box-wrapper .btn:hover {
+  cursor: pointer;
   background-color: #ffffff;
   color: #00ff9d;
   border-color: #00ff9d;
@@ -60,6 +66,10 @@ html .col-6 .col-12 {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+html .col-6 .col-12:hover {
+  cursor: crosshair;
 }
 
 html .col-6 .prediction-text {
