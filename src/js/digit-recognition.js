@@ -140,7 +140,6 @@ function preprocessCanvas(image){
     .expandDims(2)
     .expandDims()
     .toFloat();
-  console.log(tensor.shape);
   return tensor.div(255.0);
 }
 
@@ -213,5 +212,5 @@ function displayLabel(data) {
             max = data[i];
         }
     }
-	$(".prediction-text").html("Predicting you draw <b>"+maxIndex+"</b> with <b>"+Math.trunc( max*100 )+"%</b> confidence")
+	$(".prediction-text").html("Predicted you drew <b>"+maxIndex+"</b> with <b>"+Math.trunc( max*100 )+"%</b> confidence")
 }
